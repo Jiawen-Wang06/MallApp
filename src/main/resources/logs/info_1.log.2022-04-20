@@ -1,0 +1,795 @@
+[10:11:21:431] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallAppApplication on Jiawen-Desktop with PID 565928 (D:\SelfLearningProjects\MoocCode\MallApp\target\classes started by Jiawen in D:\SelfLearningProjects\MoocCode\MallApp)
+[10:11:21:434] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[10:11:22:241] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[10:11:22:251] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[10:11:22:252] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[10:11:22:253] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[10:11:22:255] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[10:11:22:255] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[10:11:22:256] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[10:11:22:260] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[10:11:22:355] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[10:11:22:355] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 896 ms
+[10:11:23:400] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[10:11:23:904] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[10:11:23:925] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[10:11:23:928] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallAppApplication in 2.736 seconds (JVM running for 3.87)
+[10:11:30:352] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[10:11:30:352] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[10:11:30:362] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 10 ms
+[10:11:30:378] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /test
+[10:11:30:378] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: GET
+[10:11:30:379] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[10:11:30:381] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.personalPage
+[10:11:30:382] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: []
+[10:11:30:404] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[10:11:31:015] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[10:11:31:106] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"id":1,"username":"1","password":"1","personalizedSignature":"3","role":1,"createTime":1576481853000,"updateTime":1581291672000}
+[10:11:33:209] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /test
+[10:11:33:209] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: GET
+[10:11:33:210] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[10:11:33:210] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.personalPage
+[10:11:33:210] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: []
+[10:11:33:237] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"id":1,"username":"1","password":"1","personalizedSignature":"3","role":1,"createTime":1576481853000,"updateTime":1581291672000}
+[10:11:56:844] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[10:11:56:845] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[10:11:56:852] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[11:21:06:257] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallAppApplication on Jiawen-Desktop with PID 595544 (D:\SelfLearningProjects\MoocCode\MallApp\target\classes started by Jiawen in D:\SelfLearningProjects\MoocCode\MallApp)
+[11:21:06:260] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[11:21:07:265] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[11:21:07:273] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[11:21:07:274] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:21:07:275] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[11:21:07:277] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[11:21:07:277] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[11:21:07:278] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[11:21:07:308] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[11:21:07:374] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:21:07:375] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1082 ms
+[11:21:07:822] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:21:08:024] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[11:21:08:041] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[11:21:08:044] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallAppApplication in 2.14 seconds (JVM running for 3.331)
+[11:24:41:850] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:24:41:856] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[11:24:41:905] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 49 ms
+[11:24:41:951] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /register
+[11:24:41:951] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[11:24:41:951] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 127.0.0.1
+[11:24:41:956] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.register
+[11:24:41:957] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [mumu, 123456]
+[11:24:42:018] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10003,"msg":"Password is too short","data":null}
+[11:26:19:726] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /register
+[11:26:19:727] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[11:26:19:727] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 127.0.0.1
+[11:26:19:727] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.register
+[11:26:19:727] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [mumu, 123456789]
+[11:26:19:763] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[11:26:20:566] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[11:26:20:796] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":null}
+[11:27:01:286] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /register
+[11:27:01:286] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[11:27:01:286] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 127.0.0.1
+[11:27:01:287] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.register
+[11:27:01:287] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [, 123456789]
+[11:27:01:289] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10001,"msg":"User name cannot be empty","data":null}
+[11:28:00:873] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[11:28:00:875] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[11:28:00:891] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[11:36:27:493] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallAppApplication on Jiawen-Desktop with PID 597140 (D:\SelfLearningProjects\MoocCode\MallApp\target\classes started by Jiawen in D:\SelfLearningProjects\MoocCode\MallApp)
+[11:36:27:500] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[11:36:29:933] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[11:36:29:956] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[11:36:29:959] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[11:36:29:961] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[11:36:29:965] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[11:36:29:967] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[11:36:29:968] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[11:36:30:044] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[11:36:30:171] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[11:36:30:172] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 2588 ms
+[11:36:31:099] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[11:36:31:492] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[11:36:31:546] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[11:36:31:550] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallAppApplication in 4.705 seconds (JVM running for 8.112)
+[11:37:12:352] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[11:37:12:354] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[11:37:12:385] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 31 ms
+[11:37:12:494] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /register
+[11:37:12:496] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[11:37:12:498] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 127.0.0.1
+[11:37:12:510] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.register
+[11:37:12:512] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [mumu, 123456789]
+[11:37:12:611] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[11:37:15:410] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[11:38:39:604] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /test
+[11:38:39:604] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: GET
+[11:38:39:606] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[11:38:39:606] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.personalPage
+[11:38:39:606] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: []
+[11:38:39:652] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"id":1,"username":"1","password":"1","personalizedSignature":"3","role":1,"createTime":1576481853000,"updateTime":1581291672000}
+[11:38:42:059] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /test
+[11:38:42:061] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: GET
+[11:38:42:061] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[11:38:42:062] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.personalPage
+[11:38:42:062] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: []
+[11:38:42:093] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"id":1,"username":"1","password":"1","personalizedSignature":"3","role":1,"createTime":1576481853000,"updateTime":1581291672000}
+[11:39:19:917] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /register
+[11:39:19:918] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[11:39:19:918] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[11:39:19:918] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.register
+[11:39:19:919] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [mumu, 123456789]
+[11:40:06:000] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /register
+[11:40:06:000] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[11:40:06:001] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[11:40:06:001] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.register
+[11:40:06:001] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [mumu, 123456789]
+[11:40:17:729] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /register
+[11:40:17:730] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[11:40:17:730] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[11:40:17:730] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.register
+[11:40:17:730] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [jiaTest, 123456789]
+[11:40:17:927] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":null}
+[12:57:19:926] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[12:57:19:995] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[12:57:20:098] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[12:57:37:654] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallAppApplication on Jiawen-Desktop with PID 607836 (D:\SelfLearningProjects\MoocCode\MallApp\target\classes started by Jiawen in D:\SelfLearningProjects\MoocCode\MallApp)
+[12:57:37:657] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[12:57:38:727] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[12:57:38:737] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[12:57:38:738] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[12:57:38:738] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[12:57:38:740] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[12:57:38:740] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[12:57:38:740] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[12:57:38:744] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[12:57:38:807] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[12:57:38:808] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1117 ms
+[12:57:39:284] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[12:57:39:586] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[12:57:39:607] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[12:57:39:610] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallAppApplication in 2.231 seconds (JVM running for 3.716)
+[12:58:41:789] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[12:58:55:575] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallAppApplication on Jiawen-Desktop with PID 607304 (D:\SelfLearningProjects\MoocCode\MallApp\target\classes started by Jiawen in D:\SelfLearningProjects\MoocCode\MallApp)
+[12:58:55:577] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[12:58:56:368] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[12:58:56:378] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[12:58:56:379] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[12:58:56:380] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[12:58:56:383] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[12:58:56:384] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[12:58:56:384] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[12:58:56:388] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[12:58:56:459] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[12:58:56:459] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 844 ms
+[12:58:56:965] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[12:58:57:189] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[12:58:57:207] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[12:58:57:211] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallAppApplication in 1.904 seconds (JVM running for 3.076)
+[12:59:19:115] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[12:59:19:115] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[12:59:19:124] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 9 ms
+[12:59:19:141] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /register
+[12:59:19:141] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[12:59:19:141] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 127.0.0.1
+[12:59:19:144] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.register
+[12:59:19:144] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [jiaTest2, 987654321]
+[12:59:19:171] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[12:59:19:868] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[12:59:20:087] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":null}
+[12:59:30:866] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[12:59:30:866] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[12:59:30:886] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[13:32:22:375] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallAppApplication on Jiawen-Desktop with PID 608080 (D:\SelfLearningProjects\MoocCode\MallApp\target\classes started by Jiawen in D:\SelfLearningProjects\MoocCode\MallApp)
+[13:32:22:377] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:32:23:423] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[13:32:23:431] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[13:32:23:433] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:32:23:433] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:32:23:435] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[13:32:23:436] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:32:23:436] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:32:23:469] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[13:32:23:541] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:32:23:542] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1127 ms
+[13:32:24:008] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:32:24:205] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[13:32:24:221] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[13:32:24:223] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallAppApplication in 2.1 seconds (JVM running for 3.418)
+[13:32:59:298] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:32:59:299] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:32:59:308] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 9 ms
+[13:32:59:335] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /register
+[13:32:59:335] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[13:32:59:335] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 127.0.0.1
+[13:32:59:340] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.register
+[13:32:59:341] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [jiawenT, 123456789]
+[13:32:59:371] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[13:33:00:160] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[13:33:00:445] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":null}
+[13:33:35:050] [WARN] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [143] milliseconds.
+[13:33:35:052] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /login
+[13:33:35:052] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[13:33:35:052] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 127.0.0.1
+[13:33:35:053] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.login
+[13:33:35:053] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [jiawenT, 123456789, org.apache.catalina.session.StandardSessionFacade@43ed4888]
+[13:35:54:175] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:35:54:176] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[13:35:54:190] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[13:36:14:253] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallAppApplication on Jiawen-Desktop with PID 607668 (D:\SelfLearningProjects\MoocCode\MallApp\target\classes started by Jiawen in D:\SelfLearningProjects\MoocCode\MallApp)
+[13:36:14:255] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:36:14:986] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[13:36:14:992] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[13:36:14:992] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:36:14:993] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:36:14:994] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[13:36:14:994] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:36:14:994] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:36:14:997] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[13:36:15:047] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:36:15:047] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 766 ms
+[13:36:15:497] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:36:15:731] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[13:36:15:755] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[13:36:15:758] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallAppApplication in 1.748 seconds (JVM running for 2.91)
+[13:36:24:444] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:36:24:445] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:36:24:452] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 7 ms
+[13:36:24:609] [WARN] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [137] milliseconds.
+[13:36:24:614] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /login
+[13:36:24:615] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[13:36:24:615] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 127.0.0.1
+[13:36:24:621] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.login
+[13:36:24:621] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [jiawenT, 123456789, org.apache.catalina.session.StandardSessionFacade@3d1c69eb]
+[13:36:24:658] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[13:36:25:113] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[13:36:38:224] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:36:38:225] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[13:36:38:249] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[13:38:56:592] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallAppApplication on Jiawen-Desktop with PID 612060 (D:\SelfLearningProjects\MoocCode\MallApp\target\classes started by Jiawen in D:\SelfLearningProjects\MoocCode\MallApp)
+[13:38:56:594] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:38:57:297] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[13:38:57:302] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[13:38:57:303] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:38:57:303] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:38:57:304] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[13:38:57:304] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:38:57:305] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:38:57:307] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[13:38:57:363] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:38:57:364] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 734 ms
+[13:38:57:742] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:38:57:930] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[13:38:57:945] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[13:38:57:947] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallAppApplication in 1.609 seconds (JVM running for 2.65)
+[13:39:09:720] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:39:09:721] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:39:09:729] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 8 ms
+[13:39:09:885] [WARN] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [136] milliseconds.
+[13:39:09:889] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /login
+[13:39:09:890] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[13:39:09:890] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 127.0.0.1
+[13:39:09:893] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.login
+[13:39:09:893] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [jiawenT, 123456789, org.apache.catalina.session.StandardSessionFacade@4637102d]
+[13:39:09:926] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[13:39:10:424] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[13:39:10:494] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":{"id":13,"username":"jiawenT","password":null,"personalizedSignature":"","role":1,"createTime":1650490379000,"updateTime":1650490379000}}
+[13:40:23:120] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /user/update
+[13:40:23:120] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[13:40:23:120] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 127.0.0.1
+[13:40:23:120] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.updateUserInfo
+[13:40:23:120] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [org.apache.catalina.session.StandardSessionFacade@4637102d, "Im sleepy"]
+[13:41:46:962] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:41:46:962] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[13:41:46:994] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[13:41:58:567] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallAppApplication on Jiawen-Desktop with PID 615416 (D:\SelfLearningProjects\MoocCode\MallApp\target\classes started by Jiawen in D:\SelfLearningProjects\MoocCode\MallApp)
+[13:41:58:576] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:41:59:446] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[13:41:59:446] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[13:41:59:446] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:41:59:446] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:41:59:446] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[13:41:59:446] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:41:59:446] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:41:59:478] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[13:41:59:525] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:41:59:525] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 926 ms
+[13:41:59:964] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:42:00:261] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[13:42:00:280] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[13:42:00:280] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallAppApplication in 2.27 seconds (JVM running for 3.636)
+[13:42:10:479] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:42:10:479] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:42:10:479] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 0 ms
+[13:42:38:495] [WARN] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [121] milliseconds.
+[13:42:38:500] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /login
+[13:42:38:501] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[13:42:38:501] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 127.0.0.1
+[13:42:38:504] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.login
+[13:42:38:504] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [jiawenT, 123456789, org.apache.catalina.session.StandardSessionFacade@274bfea2]
+[13:42:38:530] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[13:42:39:065] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[13:42:39:138] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":{"id":13,"username":"jiawenT","password":null,"personalizedSignature":"","role":1,"createTime":1650490379000,"updateTime":1650490379000}}
+[13:43:39:846] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /login
+[13:43:39:846] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[13:43:39:846] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 127.0.0.1
+[13:43:39:846] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.login
+[13:43:39:846] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [jiawenT, 123456789, org.apache.catalina.session.StandardSessionFacade@274bfea2]
+[13:43:39:863] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":{"id":13,"username":"jiawenT","password":null,"personalizedSignature":"","role":1,"createTime":1650490379000,"updateTime":1650490379000}}
+[13:43:45:257] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /login
+[13:43:45:258] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[13:43:45:258] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 127.0.0.1
+[13:43:45:258] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.login
+[13:43:45:259] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [jiawenT, 123456789, org.apache.catalina.session.StandardSessionFacade@274bfea2]
+[13:43:45:290] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":{"id":13,"username":"jiawenT","password":null,"personalizedSignature":"","role":1,"createTime":1650490379000,"updateTime":1650490379000}}
+[13:44:17:383] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /login
+[13:44:17:383] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[13:44:17:383] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[13:44:17:383] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.login
+[13:44:17:383] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [jiawenT, 123456789, org.apache.catalina.session.StandardSessionFacade@bc506a8]
+[13:44:17:400] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":{"id":13,"username":"jiawenT","password":null,"personalizedSignature":"","role":1,"createTime":1650490379000,"updateTime":1650490379000}}
+[13:45:39:182] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /user/update
+[13:45:39:182] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[13:45:39:182] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[13:45:39:182] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.updateUserInfo
+[13:45:39:182] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [org.apache.catalina.session.StandardSessionFacade@bc506a8, I'm so sleepy]
+[13:46:00:978] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /user/update
+[13:46:00:978] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[13:46:00:978] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 127.0.0.1
+[13:46:00:978] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.updateUserInfo
+[13:46:00:978] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [org.apache.catalina.session.StandardSessionFacade@274bfea2, imsleepy]
+[13:46:04:124] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /user/update
+[13:46:04:125] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[13:46:04:125] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 127.0.0.1
+[13:46:04:125] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.updateUserInfo
+[13:46:04:125] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [org.apache.catalina.session.StandardSessionFacade@274bfea2, imsleepy]
+[13:51:24:870] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:51:24:875] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[13:51:24:931] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[13:53:29:051] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallAppApplication on Jiawen-Desktop with PID 601660 (D:\SelfLearningProjects\MoocCode\MallApp\target\classes started by Jiawen in D:\SelfLearningProjects\MoocCode\MallApp)
+[13:53:29:054] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:53:30:120] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[13:53:30:129] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[13:53:30:130] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:53:30:130] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:53:30:132] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[13:53:30:133] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:53:30:133] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:53:30:152] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[13:53:30:219] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:53:30:220] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1119 ms
+[13:53:30:747] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:53:30:985] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[13:53:31:008] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[13:53:31:011] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallAppApplication in 2.263 seconds (JVM running for 4.388)
+[13:53:40:559] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:53:40:560] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:53:40:570] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 10 ms
+[13:53:40:731] [WARN] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [130] milliseconds.
+[13:53:40:735] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /login
+[13:53:40:736] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[13:53:40:736] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[13:53:40:739] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.login
+[13:53:40:739] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [jiawenT, 123456789, org.apache.catalina.session.StandardSessionFacade@6a0de0e5]
+[13:53:40:774] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[13:53:41:489] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[13:53:41:590] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":{"id":13,"username":"jiawenT","password":null,"personalizedSignature":"","role":1,"createTime":1650490379000,"updateTime":1650490379000}}
+[13:54:25:174] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /user/update
+[13:54:25:175] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[13:54:25:175] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[13:54:25:175] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.updateUserInfo
+[13:54:25:175] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [org.apache.catalina.session.StandardSessionFacade@6a0de0e5, I'm so sleepy]
+[13:56:05:649] [WARN] - com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run(HikariPool.java:787) - imooc_mall_datasource - Thread starvation or clock leap detected (housekeeper delta=1m54s35ms377µs900ns).
+[13:56:05:712] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[13:56:05:712] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[13:56:05:724] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[13:56:05:796] [WARN] - org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:221) - Error while extracting database name - falling back to empty error codes
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (imooc_mall_datasource) has been closed.
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:345) ~[spring-jdbc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:373) ~[spring-jdbc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.jdbc.support.SQLErrorCodesFactory.getErrorCodes(SQLErrorCodesFactory.java:215) [spring-jdbc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.setDataSource(SQLErrorCodeSQLExceptionTranslator.java:137) [spring-jdbc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.<init>(SQLErrorCodeSQLExceptionTranslator.java:100) [spring-jdbc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.mybatis.spring.MyBatisExceptionTranslator.initExceptionTranslator(MyBatisExceptionTranslator.java:87) [mybatis-spring-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:72) [mybatis-spring-1.3.2.jar:1.3.2]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446) [mybatis-spring-1.3.2.jar:1.3.2]
+	at com.sun.proxy.$Proxy91.update(Unknown Source) [?:?]
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:294) [mybatis-spring-1.3.2.jar:1.3.2]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63) [mybatis-3.4.6.jar:3.4.6]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59) [mybatis-3.4.6.jar:3.4.6]
+	at com.sun.proxy.$Proxy92.updateByPrimaryKey(Unknown Source) [?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) [spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) [spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) [spring-tx-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at com.sun.proxy.$Proxy93.updateByPrimaryKey(Unknown Source) [?:?]
+	at per.springbt.mallapp.service.impl.UserServiceImpl.updateUsersig(UserServiceImpl.java:59) [classes/:?]
+	at per.springbt.mallapp.controller.UserController.updateUserInfo(UserController.java:69) [classes/:?]
+	at per.springbt.mallapp.controller.UserController$$FastClassBySpringCGLIB$$3837adba.invoke(<generated>) [classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769) [spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) [spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56) [spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) [spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:55) [spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) [spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93) [spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747) [spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689) [spring-aop-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at per.springbt.mallapp.controller.UserController$$EnhancerBySpringCGLIB$$3b5da9b.updateUserInfo(<generated>) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.27.jar:9.0.27]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: HikariDataSource HikariDataSource (imooc_mall_datasource) has been closed.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82) ~[spring-jdbc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:336) ~[spring-jdbc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	... 91 more
+Caused by: java.sql.SQLException: HikariDataSource HikariDataSource (imooc_mall_datasource) has been closed.
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:96) ~[HikariCP-3.4.1.jar:?]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158) ~[spring-jdbc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116) ~[spring-jdbc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79) ~[spring-jdbc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:336) ~[spring-jdbc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	... 91 more
+[13:58:14:034] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallAppApplication on Jiawen-Desktop with PID 585980 (D:\SelfLearningProjects\MoocCode\MallApp\target\classes started by Jiawen in D:\SelfLearningProjects\MoocCode\MallApp)
+[13:58:14:038] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[13:58:14:858] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[13:58:14:870] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[13:58:14:872] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[13:58:14:873] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[13:58:14:875] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[13:58:14:875] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[13:58:14:875] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[13:58:14:881] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[13:58:14:979] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[13:58:14:980] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 904 ms
+[13:58:15:529] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[13:58:15:738] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[13:58:15:754] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[13:58:15:756] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallAppApplication in 1.965 seconds (JVM running for 3.331)
+[13:58:21:256] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[13:58:21:257] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[13:58:21:269] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 12 ms
+[13:58:21:442] [WARN] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [143] milliseconds.
+[13:58:21:445] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /login
+[13:58:21:445] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[13:58:21:445] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[13:58:21:449] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.login
+[13:58:21:450] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [jiawenT, 123456789, org.apache.catalina.session.StandardSessionFacade@6bfa36d]
+[13:58:21:478] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[13:58:21:955] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[13:58:22:035] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":{"id":13,"username":"jiawenT","password":null,"personalizedSignature":"","role":1,"createTime":1650490379000,"updateTime":1650490379000}}
+[13:58:51:169] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /user/update
+[13:58:51:170] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[13:58:51:170] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[13:58:51:170] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.updateUserInfo
+[13:58:51:170] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [org.apache.catalina.session.StandardSessionFacade@6bfa36d, I'm so sleepy]
+[13:58:51:389] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":null}
+[13:58:59:435] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /user/update
+[13:58:59:435] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[13:58:59:435] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[13:58:59:435] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.updateUserInfo
+[13:58:59:435] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [org.apache.catalina.session.StandardSessionFacade@6bfa36d, I'm so sleepy]
+[13:58:59:459] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":null}
+[14:00:00:893] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /login
+[14:00:00:893] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[14:00:00:893] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 127.0.0.1
+[14:00:00:893] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.login
+[14:00:00:894] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [jiawenT, 123456789, org.apache.catalina.session.StandardSessionFacade@3e171e37]
+[14:00:00:922] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":{"id":13,"username":"jiawenT","password":null,"personalizedSignature":"I'm so sleepy","role":1,"createTime":1650490379000,"updateTime":1650491930000}}
+[14:00:08:536] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /user/update
+[14:00:08:536] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[14:00:08:537] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 127.0.0.1
+[14:00:08:537] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.updateUserInfo
+[14:00:08:537] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [org.apache.catalina.session.StandardSessionFacade@3e171e37, imsleepy]
+[14:00:08:648] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":null}
+[14:00:46:701] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[14:00:46:702] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[14:00:46:714] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[14:02:51:899] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallAppApplication on Jiawen-Desktop with PID 601644 (D:\SelfLearningProjects\MoocCode\MallApp\target\classes started by Jiawen in D:\SelfLearningProjects\MoocCode\MallApp)
+[14:02:51:902] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[14:02:52:687] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[14:02:52:694] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[14:02:52:695] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[14:02:52:695] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[14:02:52:696] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[14:02:52:697] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[14:02:52:697] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[14:02:52:700] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[14:02:52:755] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[14:02:52:755] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 826 ms
+[14:02:53:160] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[14:02:53:350] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[14:02:53:366] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[14:02:53:370] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallAppApplication in 1.737 seconds (JVM running for 2.853)
+[14:03:06:691] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[14:03:06:692] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[14:03:06:698] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 6 ms
+[14:03:06:850] [WARN] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [132] milliseconds.
+[14:03:06:856] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /login
+[14:03:06:856] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[14:03:06:856] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[14:03:06:859] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.login
+[14:03:06:859] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [jiawenT, 123456789, org.apache.catalina.session.StandardSessionFacade@5d5a8e44]
+[14:03:06:884] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[14:03:07:586] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[14:03:07:667] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":{"id":13,"username":"jiawenT","password":null,"personalizedSignature":"imsleepy","role":1,"createTime":1650490379000,"updateTime":1650492007000}}
+[14:03:12:566] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /user/update
+[14:03:12:566] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[14:03:12:566] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[14:03:12:566] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.updateUserInfo
+[14:03:12:567] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [org.apache.catalina.session.StandardSessionFacade@5d5a8e44, I'm so sleepy]
+[14:03:12:779] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":null}
+[14:03:27:431] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[14:03:27:432] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[14:03:27:449] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[14:15:39:604] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallAppApplication on Jiawen-Desktop with PID 616892 (D:\SelfLearningProjects\MoocCode\MallApp\target\classes started by Jiawen in D:\SelfLearningProjects\MoocCode\MallApp)
+[14:15:39:607] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[14:15:40:339] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[14:15:40:347] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[14:15:40:348] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[14:15:40:348] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[14:15:40:349] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[14:15:40:350] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[14:15:40:350] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[14:15:40:353] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[14:15:40:408] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[14:15:40:409] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 773 ms
+[14:15:40:800] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[14:15:40:998] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[14:15:41:015] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[14:15:41:018] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallAppApplication in 1.677 seconds (JVM running for 2.679)
+[14:15:56:972] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[14:15:56:973] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[14:15:56:983] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 10 ms
+[14:15:57:135] [WARN] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [132] milliseconds.
+[14:15:57:142] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /user/update
+[14:15:57:143] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[14:15:57:143] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[14:15:57:149] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.updateUserInfo
+[14:15:57:149] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [org.apache.catalina.session.StandardSessionFacade@3e604fee, I'm testing this module]
+[14:15:57:186] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10008,"msg":"Need to login first","data":null}
+[14:16:05:070] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /login
+[14:16:05:070] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[14:16:05:070] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[14:16:05:070] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.login
+[14:16:05:070] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [UserTest, 123456789, org.apache.catalina.session.StandardSessionFacade@3e604fee]
+[14:16:05:101] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[14:16:05:805] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[14:16:10:780] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /register
+[14:16:10:780] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[14:16:10:781] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[14:16:10:781] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.register
+[14:16:10:781] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [UserTest, 123456789]
+[14:16:11:237] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":null}
+[14:16:15:440] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /login
+[14:16:15:440] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[14:16:15:440] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[14:16:15:440] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.login
+[14:16:15:440] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [UserTest, 123456789, org.apache.catalina.session.StandardSessionFacade@3e604fee]
+[14:16:15:460] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":{"id":14,"username":"UserTest","password":null,"personalizedSignature":"","role":1,"createTime":1650492969000,"updateTime":1650492969000}}
+[14:16:19:073] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /user/update
+[14:16:19:073] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[14:16:19:073] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[14:16:19:073] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.updateUserInfo
+[14:16:19:073] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [org.apache.catalina.session.StandardSessionFacade@3e604fee, I'm testing this module]
+[14:16:19:208] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":null}
+[14:17:37:160] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[14:17:37:160] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[14:17:37:177] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[14:17:50:980] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallAppApplication on Jiawen-Desktop with PID 599976 (D:\SelfLearningProjects\MoocCode\MallApp\target\classes started by Jiawen in D:\SelfLearningProjects\MoocCode\MallApp)
+[14:17:50:984] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[14:17:51:797] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[14:17:51:803] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[14:17:51:803] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[14:17:51:804] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[14:17:51:805] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[14:17:51:805] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[14:17:51:806] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[14:17:51:809] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[14:17:51:860] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[14:17:51:861] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 849 ms
+[14:17:52:330] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[14:17:52:560] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[14:17:52:575] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[14:17:52:577] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallAppApplication in 1.857 seconds (JVM running for 3.04)
+[14:18:01:076] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[14:18:01:076] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[14:18:01:084] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 8 ms
+[14:18:01:236] [WARN] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [132] milliseconds.
+[14:18:01:239] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /login
+[14:18:01:240] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[14:18:01:240] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[14:18:01:242] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.login
+[14:18:01:243] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [UserTest, 123456789, org.apache.catalina.session.StandardSessionFacade@79e938da]
+[14:18:01:270] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[14:18:01:814] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[14:18:01:908] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":{"id":14,"username":"UserTest","password":null,"personalizedSignature":"I'm testing this module","role":1,"createTime":1650492969000,"updateTime":1650492978000}}
+[14:18:11:619] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /user/update
+[14:18:11:620] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[14:18:11:620] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[14:18:11:620] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.updateUserInfo
+[14:18:11:620] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [org.apache.catalina.session.StandardSessionFacade@79e938da, I'm testing this module again]
+[14:18:11:838] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":null}
+[14:18:25:148] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /user/logout
+[14:18:25:148] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[14:18:25:149] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[14:18:25:149] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.logout
+[14:18:25:149] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [org.apache.catalina.session.StandardSessionFacade@79e938da]
+[14:18:25:150] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":null}
+[14:18:33:988] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /user/update
+[14:18:33:988] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[14:18:33:988] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[14:18:33:988] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.updateUserInfo
+[14:18:33:988] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [org.apache.catalina.session.StandardSessionFacade@79e938da, I'm testing this module again2]
+[14:18:33:989] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10008,"msg":"Need to login first","data":null}
+[14:18:38:266] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[14:18:38:266] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[14:18:38:282] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[19:36:38:119] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallAppApplication on Jiawen-Desktop with PID 650592 (D:\SelfLearningProjects\MoocCode\MallApp\target\classes started by Jiawen in D:\SelfLearningProjects\MoocCode\MallApp)
+[19:36:38:119] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[19:36:39:403] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[19:36:39:403] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[19:36:39:403] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[19:36:39:403] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[19:36:39:403] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[19:36:39:403] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[19:36:39:403] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[19:36:39:435] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[19:36:39:499] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[19:36:39:499] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1302 ms
+[19:36:39:952] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[19:36:40:156] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[19:36:40:188] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[19:36:40:188] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallAppApplication in 3.167 seconds (JVM running for 5.172)
+[19:36:50:758] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[19:36:50:758] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[19:36:50:774] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 16 ms
+[19:36:51:051] [WARN] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [224] milliseconds.
+[19:36:51:145] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /admin/category/add
+[19:36:51:145] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[19:36:51:145] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[19:36:51:161] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.CategoryController.addCategory
+[19:36:51:161] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [org.apache.catalina.session.StandardSessionFacade@1cfbb799, AddCategoryReq{name='鸭货', type=2, parentId=6, orderNum=1}]
+[19:36:51:177] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10008,"msg":"Need to login first","data":null}
+[19:37:20:502] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /login
+[19:37:20:502] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[19:37:20:502] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[19:37:20:503] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.login
+[19:37:20:503] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [jiaTest, 123456789, org.apache.catalina.session.StandardSessionFacade@1cfbb799]
+[19:37:20:540] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[19:37:21:270] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[19:38:16:311] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /register
+[19:38:16:311] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[19:38:16:311] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[19:38:16:311] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.register
+[19:38:16:311] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [jiawenAdmin, 123456789]
+[19:38:16:511] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":null}
+[19:38:55:710] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /login
+[19:38:55:710] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[19:38:55:710] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[19:38:55:710] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.login
+[19:38:55:710] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [jiawenAdmin, 123456789, org.apache.catalina.session.StandardSessionFacade@1cfbb799]
+[19:38:55:735] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":{"id":15,"username":"jiawenAdmin","password":null,"personalizedSignature":"","role":2,"createTime":1650512295000,"updateTime":1650512314000}}
+[19:39:05:239] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /admin/category/add
+[19:39:05:239] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[19:39:05:239] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[19:39:05:240] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.CategoryController.addCategory
+[19:39:05:240] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [org.apache.catalina.session.StandardSessionFacade@1cfbb799, AddCategoryReq{name='鸭货', type=2, parentId=6, orderNum=1}]
+[19:39:05:409] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":null}
+[19:40:13:324] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[19:40:13:340] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[19:40:13:387] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[19:56:02:337] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallAppApplication on Jiawen-Desktop with PID 649428 (D:\SelfLearningProjects\MoocCode\MallApp\target\classes started by Jiawen in D:\SelfLearningProjects\MoocCode\MallApp)
+[19:56:02:337] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[19:56:03:295] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[19:56:03:295] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[19:56:03:295] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[19:56:03:295] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[19:56:03:295] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[19:56:03:295] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[19:56:03:295] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[19:56:03:327] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[19:56:03:389] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[19:56:03:389] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1005 ms
+[19:56:03:891] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[19:56:04:095] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[19:56:04:110] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[19:56:04:110] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallAppApplication in 2.044 seconds (JVM running for 3.279)
+[19:56:14:176] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[19:56:14:176] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[19:56:14:185] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 9 ms
+[19:56:14:349] [WARN] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [141] milliseconds.
+[19:56:14:356] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:32) - URL: /login
+[19:56:14:357] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:33) - HTTP_METHOD: POST
+[19:56:14:357] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:34) - IP: 0:0:0:0:0:0:0:1
+[19:56:14:360] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:35) - Class_METHOD: per.springbt.mallapp.controller.UserController.login
+[19:56:14:361] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doBefore(WebLogAspect.java:36) - ARGS: [jiawenAdmin, 123456789, org.apache.catalina.session.StandardSessionFacade@2eea8a14]
+[19:56:14:393] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - imooc_mall_datasource - Starting...
+[19:56:15:053] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - imooc_mall_datasource - Start completed.
+[19:56:15:145] [INFO] - per.springbt.mallapp.filter.WebLogAspect.doAfter(WebLogAspect.java:41) - RESPONSE: {"status":10000,"msg":"SUCCESS","data":{"id":15,"username":"jiawenAdmin","password":null,"personalizedSignature":"","role":2,"createTime":1650512295000,"updateTime":1650512314000}}
+[20:27:30:537] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[20:27:30:600] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - imooc_mall_datasource - Shutdown initiated...
+[20:27:30:957] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - imooc_mall_datasource - Shutdown completed.
+[20:40:28:892] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting MallAppApplication on Jiawen-Desktop with PID 658112 (D:\SelfLearningProjects\MoocCode\MallApp\target\classes started by Jiawen in D:\SelfLearningProjects\MoocCode\MallApp)
+[20:40:28:892] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[20:40:30:444] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[20:40:30:868] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[20:40:30:884] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[20:40:30:884] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[20:40:30:884] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[20:40:30:884] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[20:40:30:884] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[20:40:30:884] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[20:40:30:915] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[20:40:31:010] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[20:40:31:010] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 2024 ms
+[20:40:31:825] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[20:40:31:966] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[20:40:32:202] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[20:40:32:217] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[20:40:32:249] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[20:40:32:516] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[20:40:32:531] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[20:40:32:531] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started MallAppApplication in 4.133 seconds (JVM running for 6.199)
+[20:41:21:672] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[20:41:21:673] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[20:41:21:680] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 7 ms
+[20:43:34:757] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
